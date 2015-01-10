@@ -78,7 +78,7 @@ lines(pData$Sub_metering_2, col="red")
 lines(pData$Sub_metering_3, col="blue")
 
 leg.txt<-c("Sub_metering_1","Sub_metering_2","Sub_metering_3")
-legend("topright",leg.txt, bty="n", col=c("black", "red", "blue"), lwd = c(1, 1, 1), cex=0.8)
+legend("topright",leg.txt, bty="n", col=c("black", "red", "blue"), lwd = c(1, 1, 1))
 
 #plot 4.4
 plot(pData$Global_reactive_power, type="l", xaxt='n', ylab="Global_reactive_power", xlab="datetime")
